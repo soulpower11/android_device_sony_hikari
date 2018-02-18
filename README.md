@@ -1,1 +1,2 @@
-# android_device_sony_hikari
+Sony Xperia Acro S
+==============
