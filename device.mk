@@ -314,3 +314,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/custom/backuptool/backuptool.sh:install/bin/backuptool.sh \
     $(LOCAL_PATH)/custom/backuptool/backuptool.functions:install/bin/backuptool.functions \
     $(LOCAL_PATH)/custom/backuptool/50-base.sh:system/addon.d/50-base.sh
+
+# Vendor product configurations
+$(call inherit-product, vendor/sony/hikari/hikari-vendor.mk)
