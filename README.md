@@ -1,2 +1,2 @@
-Sony Xperia Acro S
+Sony Xperia acro S
 ==============
