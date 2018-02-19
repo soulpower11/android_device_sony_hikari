@@ -283,19 +283,7 @@ PRODUCT_COPY_FILES += \
 # Terminal
 PRODUCT_PACKAGES += \
     Terminal
-
-# ROM Updater
-ifeq ($(ROM_BUILD_NUM),)
-  $(error No ROM_BUILD_NUM defined. please export the value (export ROM_BUILD_NUM=xx))
-endif
-
-PRODUCT_PACKAGES += \
-    ROMUpdater
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.version.updater=nAOSProm-7.1.2-b$(ROM_BUILD_NUM) \
-    persist.rom.updater.uri=https://localhost
-
+    
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dex2oat-swap=false
