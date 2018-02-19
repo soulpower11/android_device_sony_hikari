@@ -95,6 +95,7 @@ BOARD_HAVE_FMRADIO_BCM := true
 # kernel
 BOARD_KERNEL_MSM := true
 KERNEL_DEFCONFIG := fuji_hikari_defconfig
+TARGET_KERNEL_CONFIG := fuji_hikari_defconfig
 
 # power
 TARGET_HAS_LEGACY_SHUTDOWN := true
