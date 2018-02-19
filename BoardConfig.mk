@@ -164,15 +164,6 @@ TW_EXCLUDE_SUPERSU := true
 endif #TARGET_RECOVERY_TWRP
 endif #TARGET_NO_RECOVERY
 
-# OTA
-TARGET_OTA_ASSERT_DEVICE := LT26i,hikari
-
-# custom boot
-BOARD_CUSTOM_BOOTIMG_MK := device/sony/hikari/custom/custombootimg.mk
-
-# custom ota
-BOARD_CUSTOM_OTA_MK := device/sony/hikari/custom/customota.mk
-
 # SELinux
 BOARD_SEPOLICY_DIRS += \
     device/sony/hikari/sepolicy
